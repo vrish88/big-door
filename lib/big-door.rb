@@ -1,0 +1,5 @@
+require ''
+
+module BigDoor
+
+end
