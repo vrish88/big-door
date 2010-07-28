@@ -13,6 +13,7 @@ begin
     gem.add_development_dependency "rspec", "~> 2.0.0.beta.19"
     gem.add_development_dependency "cucumber", "~> 0.8.5"
     gem.add_runtime_dependency "rest-client", "~>1.6.0"
+    gem.add_runtime_dependency "json", "~>1.4.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new

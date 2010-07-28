@@ -1,4 +1,5 @@
-require ''
+require 'rest-client'
+require 'json'
 
 module BigDoor
 

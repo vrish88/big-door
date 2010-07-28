@@ -4,6 +4,7 @@ source :gemcutter
 # gem "rails"
 
 gem "rest-client", "~>1.6.0"
+gem "json", "~>1.4.3"
 
 group :test do
   gem 'rspec', '2.0.0.beta.19'
