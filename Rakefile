@@ -12,7 +12,7 @@ begin
     gem.authors = ["Michael Lavrisha"]
     gem.add_development_dependency "rspec", "~> 2.0.0.beta.19"
     gem.add_development_dependency "cucumber", "~> 0.8.5"
-    gem.add_runtime_dependency "rest-client", "~>1.6.0"
+    gem.add_runtime_dependency "httparty", "~>0.6.0"
     gem.add_runtime_dependency "json", "~>1.4.3"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
@@ -35,16 +35,16 @@ end
 #
 #task :spec => :check_dependencies
 
-begin
-  require 'cucumber/rake/task'
-  Cucumber::Rake::Task.new(:features)
-
-  task :features => :check_dependencies
-rescue LoadError
-  task :features do
-    abort "Cucumber is not available. In order to run features, you must: sudo gem install cucumber"
-  end
-end
+# begin
+#   require 'cucumber/rake/task'
+#   Cucumber::Rake::Task.new(:features)
+# 
+#   task :features => :check_dependencies
+# rescue LoadError
+#   task :features do
+#     abort "Cucumber is not available. In order to run features, you must: sudo gem install cucumber"
+#   end
+# end
 
 task :default => :spec
 

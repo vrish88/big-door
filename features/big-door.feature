@@ -1,9 +1,9 @@
-Feature: something something
-  In order to something something
-  A user something something
-  something something something
+Feature: Provide API access to Big Door media
+	As a developer
+	I want to access Big Door media's API
 
-  Scenario: something something
-    Given inspiration
-    When I create a sweet new gem
-    Then everyone should see how awesome I am
+	Scenario: Sending a request to get award summary
+		Given I have API credentials
+		When I make a request to for "award_summary"
+		Then I should receive a "200" response code
+		And the response should be ""
