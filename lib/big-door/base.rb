@@ -37,31 +37,39 @@ module BigDoor
 			perform_request request_type, method_name, args
 		end
 
-		private
-			def perform_request(request_type, action, args)
-				raise BigDoorError, "Unknown request type`" unless ['get', 'post', 'put', 'delete'].include? request_type
-				query = args.last
-				params = {}
-				query = {} if (query.is_a? Array and query.empty?) or query.nil?
-				
-				if ['post', 'put'].include? request_type
-					params[:body] = query
-					params[:body][:time] = "%.2f" % Time.now.to_f
-					params[:body][:token] = SecureRandom.hex
-					query = {}
-				end
-
-				path = [BASE_URI, @app_key, action].join('/')
-				params[:query] = query
-				params[:query][:time] = params[:body][:time] rescue "%.2f" % Time.now.to_f
-				params[:query][:sig] = calculate_sha2_hash(path, params)
-				params[:query][:format] = 'json'
-				url = [BASE_URL, path].join('/')
-				parse_response(BigDoor::Request.send(request_type, url, params))
-			end
+		def perform_request(request_type, action, args)
+			raise BigDoorError, "Unknown request type`" unless ['get', 'post', 'put', 'delete'].include? request_type
+			query = args.last
+			params = {}
+			query = {} if (query.is_a? Array and query.empty?) or query.nil?
 			
+			if ['post', 'put'].include? request_type
+				params[:body] = query
+				params[:body][:time] = "%.2f" % Time.now.to_f
+				params[:body][:token] = SecureRandom.hex
+				query = {}
+			end
+
+			path = [BASE_URI, @app_key, action].join('/')
+			params[:query] = query
+			params[:query][:time] = params[:body][:time] rescue "%.2f" % Time.now.to_f
+			params[:query][:sig] = calculate_sha2_hash(path, params)
+			params[:query][:format] = 'json'
+			url = [BASE_URL, path].join('/')
+			# parse_response(BigDoor::Request.send(request_type, url, params))
+			BigDoor::Request.send(request_type, url, params)
+		end
+
+		private
 			def parse_response(response)
-				response
+				output = []
+				[*response.parsed_response.first].each do |result|
+					output << case result["resource_name"]
+											when 'end_user'; User.new(result)
+											else
+												result
+										end
+				end
 			end
 			
 			def calculate_sha2_hash(path, query)

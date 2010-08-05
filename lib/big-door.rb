@@ -15,3 +15,4 @@ directory = File.expand_path(File.dirname(__FILE__))
 
 require File.join(directory, "big-door", "base")
 require File.join(directory, "big-door", "request")
+require File.join(directory, "big-door", "user")
