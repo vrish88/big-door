@@ -34,12 +34,13 @@ module BigDoor
 		def method_missing(name, *args)
 			name, request_type, method_name = name.to_s.match(/(put|post|get|delete)_(.+)/).to_a
 			super(name, args) if name.nil? or request_type.nil? or method_name.nil?
-			send("perform_request", request_type, method_name, args.last)
+			perform_request request_type, method_name, args
 		end
 
 		private
-			def perform_request(request_type, action, query={})
+			def perform_request(request_type, action, args)
 				raise BigDoorError, "Unknown request type`" unless ['get', 'post', 'put', 'delete'].include? request_type
+				query = args.last
 				params = {}
 				query = {} if (query.is_a? Array and query.empty?) or query.nil?
 				
