@@ -33,31 +33,47 @@ module BigDoor
 
 		def method_missing(name, *args)
 			name, request_type, method_name = name.to_s.match(/(put|post|get|delete)_(.+)/).to_a
-			super if name.nil? or request_type.nil? or method_name.nil?
-			send("perform_#{request_type}", method_name, args)
+			super(name, args) if name.nil? or request_type.nil? or method_name.nil?
+			send("perform_request", request_type, method_name, args.last)
 		end
+
 		private
-			def perform_get(path, query={})
-				# debugger
-				query = {} if query.is_a? Array and query.empty?
-				path = [BASE_URI, @app_key, path].join('/')
-				query[:time] = "%.2f" % Time.now.to_f
-				query[:sig] = calculate_sha2_hash(path, query)
-				query[:format] = 'json'
-				url = [BASE_URL, path].join('/') + '?' + to_url_params(query)
-				# puts url
-				BigDoor::Request.get(url)
+			def perform_request(request_type, action, query={})
+				raise BigDoorError, "Unknown request type`" unless ['get', 'post', 'put', 'delete'].include? request_type
+				params = {}
+				query = {} if (query.is_a? Array and query.empty?) or query.nil?
+				
+				if ['post', 'put'].include? request_type
+					params[:body] = query
+					params[:body][:time] = "%.2f" % Time.now.to_f
+					params[:body][:token] = SecureRandom.hex
+					query = {}
+				end
+
+				path = [BASE_URI, @app_key, action].join('/')
+				params[:query] = query
+				params[:query][:time] = params[:body][:time] rescue "%.2f" % Time.now.to_f
+				params[:query][:sig] = calculate_sha2_hash(path, params)
+				params[:query][:format] = 'json'
+				url = [BASE_URL, path].join('/')
+				parse_response(BigDoor::Request.send(request_type, url, params))
+			end
+			
+			def parse_response(response)
+				response
 			end
 			
 			def calculate_sha2_hash(path, query)
 				path = '/' + path
-				Digest::SHA2.new(bitlen = 256).update(path + concat_query(query) + @secret_key).to_s
+				Digest::SHA2.new(bitlen = 256).update(path + concat_query(query[:query]) + concat_query(query[:body]) + @secret_key).to_s
 			end
 			
 			def concat_query(query)
 				str = ''
-				query.keys.sort.each do |key|
-					str << key.to_s + query[key].to_s unless [:sig, :format].include?(key)
+				unless query.nil?
+					query.keys.map(&:to_s).sort.each do |key|
+						str << key.to_s + query[key.to_sym].to_s unless [:sig, :format].include?(key)
+					end
 				end
 				str
 			end

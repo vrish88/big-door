@@ -2,6 +2,7 @@ require 'httparty'
 require 'json'
 require 'uri'
 require 'cgi'
+require 'uuidtools'
 
 module BigDoor
 	BASE_URL = 'http://api.bigdoor.com'.freeze

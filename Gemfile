@@ -5,6 +5,7 @@ source :gemcutter
 
 gem "httparty", "~>0.6.0"
 gem "json", "~>1.4.3"
+gem "uuidtools", "~>2.1.1"
 
 group :test do
   gem 'rspec', '2.0.0.beta.19'
