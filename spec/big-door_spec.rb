@@ -33,7 +33,10 @@ describe "BigDoor" do
 		end
 		
 		it "should get all users" do
-			@users = User.all
+			@users = BigDoor::User.all
+			@users.each do |user|
+				user.class.should eql(BigDoor::User)
+			end
 		end
 	end
 end

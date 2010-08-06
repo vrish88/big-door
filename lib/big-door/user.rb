@@ -2,6 +2,8 @@
 
 module BigDoor
 	class User
+		include ClassMethods
+		
 		def initialize(params)
 			params.each_pair do |key, val|
 				self.class.class_eval do
@@ -14,7 +16,7 @@ module BigDoor
 			end
 		end
 		
-		def all
+		def self.all
 			perform_request('get', 'end_user')
 		end
 	end
