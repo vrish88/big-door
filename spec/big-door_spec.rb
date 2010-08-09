@@ -10,8 +10,7 @@ describe "BigDoor" do
 		['award_summary', 'level_summary', 'good_summary', 'currency_type', 'currency'].each do |action|
 			it "should make a #{action} request" do
 				response = @big_door.send("get_#{action}")
-				p response.parsed_response
-				response.code.should eql(200)
+				response.should eql([])
 			end
 		end
 	end

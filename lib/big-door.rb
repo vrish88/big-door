@@ -42,8 +42,8 @@ module BigDoor
 			params[:query][:sig] = calculate_sha2_hash(path, params)
 			params[:query][:format] = 'json'
 			url = [BASE_URL, path].join('/')
-			# parse_response(BigDoor::Request.send(request_type, url, params))
-			BigDoor::Request.send(request_type, url, params)
+			parse_response(BigDoor::Request.send(request_type, url, params))
+			# BigDoor::Request.send(request_type, url, params)
 		end
 
 		private
@@ -51,11 +51,13 @@ module BigDoor
 				output = []
 				[*response.parsed_response.first].each do |result|
 					output << case result["resource_name"]
-											when 'end_user'; User.new(result)
+											when 'end_user'
+												User.new(result)
 											else
 												result
 										end
 				end
+				output
 			end
 			
 			def calculate_sha2_hash(path, query)
