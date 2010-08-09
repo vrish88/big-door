@@ -5,12 +5,18 @@ describe "BigDoor" do
 	before do
 		@big_door = BigDoor::Base.new(:app_key => '0deee7386916481199b5cbc16e4800b0', :secret_key => '601d2664219e4886a059eeb251baad46')
 	end
-
+	
 	describe "make get requests" do
 		['award_summary', 'level_summary', 'good_summary', 'currency_type', 'currency'].each do |action|
 			it "should make a #{action} request" do
-				response = @big_door.send("get_#{action}")
-				response.should eql([])
+				VCR.use_cassette("#{action.match(/([^_]+)_?/)[1]}/#{action}", :record => :none) do
+					response = @big_door.send("get_#{action}")
+					if action == "currency_type"
+						response.should eql([{"can_be_purchased"=>1, "read_only"=>0, "created_timestamp"=>1263933875, "title"=>"Purchase", "modified_timestamp"=>1263933875, "has_dollar_exchange_rate_integrity"=>1, "id"=>1, "can_be_rewarded"=>0, "description"=>nil, "resource_name"=>"currency_type", "can_be_cross_publisher"=>0}, {"can_be_purchased"=>0, "read_only"=>0, "created_timestamp"=>1263933875, "title"=>"Reward", "modified_timestamp"=>1263933875, "has_dollar_exchange_rate_integrity"=>0, "id"=>2, "can_be_rewarded"=>1, "description"=>nil, "resource_name"=>"currency_type", "can_be_cross_publisher"=>0}, {"can_be_purchased"=>1, "read_only"=>0, "created_timestamp"=>1263933875, "title"=>"Hybrid", "modified_timestamp"=>1264002256, "has_dollar_exchange_rate_integrity"=>0, "id"=>3, "can_be_rewarded"=>1, "description"=>"", "resource_name"=>"currency_type", "can_be_cross_publisher"=>0}, {"can_be_purchased"=>0, "read_only"=>0, "created_timestamp"=>1263933875, "title"=>"\303\234ber", "modified_timestamp"=>1263933875, "has_dollar_exchange_rate_integrity"=>1, "id"=>4, "can_be_rewarded"=>0, "description"=>nil, "resource_name"=>"currency_type", "can_be_cross_publisher"=>1}]);
+					else
+						response.should eql([]);
+					end
+				end
 			end
 		end
 	end
@@ -32,7 +38,9 @@ describe "BigDoor" do
 		end
 		
 		it "should get all users" do
-			@users = BigDoor::User.all
+			VCR.use_cassette('user/all', :record => :new_episodes) do
+				@users = BigDoor::User.all
+			end
 			@users.each do |user|
 				user.class.should eql(BigDoor::User)
 			end

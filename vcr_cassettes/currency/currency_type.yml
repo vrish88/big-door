@@ -1,0 +1,31 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: !ruby/regexp /http:\/\/api\.bigdoor\.com\/api\/publisher\/0deee7386916481199b5cbc16e4800b0\/currency_type\?/
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 09 Aug 2010 16:41:36 GMT
+      content-length: 
+      - "1797"
+      vary: 
+      - Authorization,Cookie
+    body: "[\n    [\n        {\n            \"read_only\": 0, \n            \"modified_timestamp\": 1263933875, \n            \"resource_name\": \"currency_type\", \n            \"description\": null, \n            \"title\": \"Purchase\", \n            \"can_be_cross_publisher\": 0, \n            \"can_be_purchased\": 1, \n            \"can_be_rewarded\": 0, \n            \"created_timestamp\": 1263933875, \n            \"has_dollar_exchange_rate_integrity\": 1, \n            \"id\": 1\n        }, \n        {\n            \"read_only\": 0, \n            \"modified_timestamp\": 1263933875, \n            \"resource_name\": \"currency_type\", \n            \"description\": null, \n            \"title\": \"Reward\", \n            \"can_be_cross_publisher\": 0, \n            \"can_be_purchased\": 0, \n            \"can_be_rewarded\": 1, \n            \"created_timestamp\": 1263933875, \n            \"has_dollar_exchange_rate_integrity\": 0, \n            \"id\": 2\n        }, \n        {\n            \"read_only\": 0, \n            \"modified_timestamp\": 1264002256, \n            \"resource_name\": \"currency_type\", \n            \"description\": \"\", \n            \"title\": \"Hybrid\", \n            \"can_be_cross_publisher\": 0, \n            \"can_be_purchased\": 1, \n            \"can_be_rewarded\": 1, \n            \"created_timestamp\": 1263933875, \n            \"has_dollar_exchange_rate_integrity\": 0, \n            \"id\": 3\n        }, \n        {\n            \"read_only\": 0, \n            \"modified_timestamp\": 1263933875, \n            \"resource_name\": \"currency_type\", \n            \"description\": null, \n            \"title\": \"\xC3\x9Cber\", \n            \"can_be_cross_publisher\": 1, \n            \"can_be_purchased\": 0, \n            \"can_be_rewarded\": 0, \n            \"created_timestamp\": 1263933875, \n            \"has_dollar_exchange_rate_integrity\": 1, \n            \"id\": 4\n        }\n    ], \n    {}\n\
+      ]"
+    http_version: "1.1"
