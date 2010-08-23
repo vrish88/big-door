@@ -14,21 +14,39 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Mon, 09 Aug 2010 16:45:23 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 16 Aug 2010 20:06:25 GMT
       content-length: 
-      - "19"
+      - "630"
       vary: 
       - Authorization,Cookie
     body: |-
       [
-          [], 
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
           {}
       ]
     http_version: "1.1"

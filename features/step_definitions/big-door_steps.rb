@@ -4,41 +4,75 @@ Given /^I have API credentials$/ do
 end
 
 Given /^I have a user$/ do
-  @user = @big_door.get_end_user.parsed_response.first.first
-end
-
-# Whens
-When /^I make a request to for "([^"]*)"$/ do |arg1|
-	@response = @big_door.get_award_summary
-end
-
-When /^I create a user named "([^"]*)"$/ do |name|
-	@response = @big_door.post_end_user(:end_user_login => name)
-	@response.code.should eql(201)
-end
-
-When /^I check the user's "([^"]*)"$/ do |action|
-	@response = @big_door.get_end_user(action, :end_user_login => @user["end_user_login"])
-end
-
-# Thens
-Then /^I should have "([^"]*)" new user$/ do |num|
-	@response = @big_door.get_end_user
-	response.parsed_response
-end
-
-Then /^I should receive a "([^"]*)" object$/ do |received_object|
-	if @response.parsed_response.first.is_a? Array
-		@response.parsed_response.first.first["resource_name"].should eql(received_object)
-	else
-		@response.parsed_response.first["resource_name"].should eql(received_object)
+	VCR.use_cassette('user/all', :record => :new_episodes) do
+		@user = @big_door.get_end_user.first
 	end
 end
 
-Then /^I should receive a "([^"]*)" response code$/ do |response_code|
+Given /^I have a "([^"]*)" named "([^"]*)"$/ do |action, name|
+	if action == "NamedTransaction"
+		VCR.use_cassette("NamedTransaction/specific", :record => :new_episodes) do
+			@transaction = BigDoor::NamedTransaction.find(:pub_title => name)
+		end
+	elsif action == 'Currency'
+		VCR.use_cassette("currency/specific", :record => :new_episodes) do
+			@currency = BigDoor::Currency.find(:pub_title__starts_with => name)
+		end
+		@currency.should_not eql(nil)
+	end
+end
+
+# Whens
+When /^I make a request for "([^\"]*)"$/ do |arg1|
+	VCR.use_cassette('award/award_summary', :record => :new_episodes) do
+		@response = @big_door.get_award_summary
+	end
+end
+
+When /^I create a user named "([^\"]*)"$/ do |name|
+	VCR.use_cassette('user/new', :record => :new_episodes) do
+		@response = BigDoor::User.find(name)
+	end
+	@response.class.should eql(BigDoor::User)
+end
+
+When /^I check the user's "([^\"]*)"$/ do |action| 
+	VCR.use_cassette('user/all', :record => :new_episodes) do
+		@response = @user.send action
+	end
+end
+
+When /^I add "([^\"]*)" points to users's account$/ do |points|
+	VCR.use_cassette('user/currency_balance', :record => :new_episodes) do
+		# @old_points = @user.get_currency_balance(@currency)
+	end
+
+	VCR.use_cassette('user/add_points', :record => :new_episodes) do
+		@user.add_points(@currency, points.to_i)
+	end
+end
+
+# Thens
+Then /^I should have "([^\"]*)" new user$/ do |num|
+	@response = @big_door.get_end_user
+end
+
+Then /^I should receive a "([^\"]*)" object$/ do |received_object|
+	if @response.is_a? Array
+		@response.first.class.should eql(received_object.constantize)
+	else
+		@response.class.should eql(eval(received_object))
+	end
+end
+
+Then /^I should receive a "([^\"]*)" response code$/ do |response_code|
 	@response.code.should eql(response_code.to_i)
 end
 
 Then /^the response should be "([^"]*)"$/ do |arg1|
-	@response.parsed_response.should eql([[], {}])
+	@response.should eql(eval(arg1))
+end
+
+Then /^their account should have "([^\"]*)" more points$/ do |arg1|\
+  pending # express the regexp above with the code you wish you had
 end

@@ -19,5 +19,24 @@ module BigDoor
 		def self.all
 			perform_request('get', 'end_user')
 		end
+		
+		def self.find(login)
+			perform_request('get', 'end_user', {:id => login})
+		end
+		
+		def transaction
+			perform_request('get', "end_user/#{self.end_user_login}/transaction")
+		end
+		
+		def add_points(currency, points)
+			debugger
+			perform_request('post', "end_user/#{self.end_user_login}/transaction", {:id => currency.id, :amount => points})
+		end
+		
+		def get_currency_balance(currency=nil)
+			params = {}
+			params[:id] = currency.id.to_s unless currency.nil?
+			perform_request('get', "end_user/#{self.end_user_login}/currency_balance", params)
+		end
 	end
 end

@@ -1,0 +1,2521 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282063247.65&format=json&sig=0b0fcc1db463befdd2ad3c3915983f5ab395854d49caa105d1193393961a8aea
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 503
+      message: "Service Unavailable: Back-end server is at capacity"
+    headers: 
+      connection: 
+      - Close
+      content-length: 
+      - "0"
+    body: ""
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282588922.38&format=json&sig=428cc13d96d93415d637df6cd06d822a75f0d022f682032efa1642fde8950ca7
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 18:42:02 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598230.88&format=json&sig=bc4705193e10687c0417d5c8f025a130638107760a67c30b033da4d03aef7d6f
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:17:11 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598251.93&format=json&sig=bb9ca8c09d756e9ccd5ba824c479307dd8ca2a5e55640fb3f7dad26f4a4d18c8
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:17:32 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598297.95&format=json&sig=bb01fae18910e6f9c3a4730317cbcf7f79c88d39116034257ff92e1feca493b6
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:18:18 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598334.39&format=json&sig=d9b17922aa316e4874e154a03d5127e92423418ce0ee2742ab4379c39d445a41
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:18:55 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598362.28&format=json&sig=3c86d4aaa00ccf4008bb54393c957b2b06e71403d9d6529d61382879f3f55000
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:19:23 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598391.33&format=json&sig=d7c816d5f6f23956ba87911bbaf937e09cd42c9db3a2adaee3aa1c35cf35aa6b
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:19:52 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598840.04&format=json&sig=b7c14b82bc196ea12b8346251a4c520a7ac24a8054ca992e713a4df349629f88
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:27:20 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598908.27&format=json&sig=644c5775c99d74fc615bf01574e8a6eeb0bf68a069b3abddb0278a0439ccd57f
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:28:29 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282598994.98&format=json&sig=31b3132093a355d662772bfb550f56f841a16c89ba7b27d0942cba5a2be86577
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:29:55 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282599025.50&format=json&sig=1d77ebdee508515c674e86c73e0e27935f0e29dc567ba9c8315213457b2332ab
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:30:26 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282599874.84&format=json&sig=df952cb72dea95a1d9900ecaf12aa46192c28211e9d19be78891a37fa8bc619f
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:44:35 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600055.01&format=json&sig=17da11372b689e478bb8cfdbde83de364cd3fcc70fe0e93a348b09af922f00c4
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:47:35 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600154.83&format=json&sig=8990689b318a46f0055a4f84c202b268ea932c22d0a34b0cc45014fede05aaa3
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:49:15 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600185.64&format=json&sig=876cd55eec542956d3f267bf123add9f0173de4851a84b311dba51fa20a3d87b
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:49:45 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600211.68&format=json&sig=636f431fbbee13a4d7cb307b196ecf50107975f5c8b29445b144480d17631253
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:50:11 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600220.25&format=json&sig=81e5535e924775f4b0d0c75494e981a6c0b87718237499edeb2ad1cea1be3a90
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:50:20 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600291.51&format=json&sig=55f38156068b9ee6b9840a383ee85084040e19263bfd6ed603b00c65bfab388e
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:51:31 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600400.56&format=json&sig=2c0a22b996037f4f05e3dba2e300b1c901dcb76209c9a435b6ecf7e26a26acdd&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:53:20 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600477.73&format=json&sig=41af3e78b2808d79c17a59107f9ab8ad3e7ece3cf2f97c17859cdf6427249fdb&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:54:37 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600533.70&format=json&sig=8e716c9b090971aa8b7198f5c77b33178062143adac98a80e70f004b474e1b40&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:55:33 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600606.62&format=json&pub_title__starts_with=Temp%20Points&sig=e62b7060310e4a87cce352b929ed716d99499ecd4d30484ac385dd9df0141de7
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:56:46 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600679.37&format=json&sig=bf77700edecaaaede41bbad96586124de451af7af99042f28d0b6fd9e4588392&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:57:59 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600716.65&format=json&sig=16c12475e51051b823471517f2c0a1215a077d7478543507f3dd2be095347187&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 21:58:36 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600731.81&format=json&sig=d169bd78bd9094d9f39ef46d4dcf05ee4eb62dde232430d446fa70a1f4b0fed5&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 21:58:52 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282600823.10&format=json&sig=3aa5934136a6f851f1d2145e02b165c28251e788e07aff498b2afe21e1b44587&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 22:00:23 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282601347.42&format=json&sig=7df95858316b4b8e5585dcb01897b99da79fc9dca82e4217a36653f5462fdccb&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 22:09:07 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282601383.91&format=json&sig=68919454e488fb18f3c68dfd8ba5f15c49cf31ea916c7bfcc3f94f97b27f0127&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 22:09:44 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282601811.14&format=json&sig=816d87db60f8c2551249a4d5a0616b2bb21e0f0ef44c69a04a74a8535de73a34&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 22:16:51 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602104.77&format=json&sig=589d7349931db18dc68c976cad5f8a70bf4081b8a44490bcdf34336bbd8fa134&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 22:21:45 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602192.19&format=json&sig=81825eda32ac5233c6604e26c3a931a868a271621713367731e2eed57c38213b&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 22:23:12 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602282.25&format=json&sig=eaa50e865f8121cc08134794b4a510c6c5735d90f44832d75dd76266e5c22f67&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 22:24:42 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602347.34&format=json&sig=1915f973a4646aa1704f9009f9a6e5067a6629ccb0d1f929075e53fcbff96333&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 22:25:48 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602391.82&format=json&sig=e6752a8e2f0e1634416525ae3b1c3fbceacecaeb2a4d3060a391d213d25454d2&pub_title__starts_with=Temp%20Points
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 22:26:32 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602463.50&format=json&pub_title__starts_with=Temp%20Points&sig=68574e57e9f560134b117175863faff27760f2359392d18626bebe2379ca2d55
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 22:27:43 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602499.14&format=json&pub_title__starts_with=Temp%20Points&sig=9fd4d4e48918ae9ad2bf849050213a651f088539866dda4905041936194b3a01
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 22:28:19 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602543.03&format=json&pub_title__starts_with=Temp%20Points&sig=450fc47d88e82554c355ec3cc663d48365358e28308ba4bc20c8aa02be93909e
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 22:29:03 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602569.01&format=json&pub_title__starts_with=Temp%20Points&sig=1523ffbc19c8555ba9446e946b032c1bd6902e6cabfec29c8074cafc03e09a5f
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 22:29:29 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282602684.09&format=json&pub_title__starts_with=Temp%20Points&sig=7ec3edcb7b64bb349000aaa1539a7a6bcd2910f0de0063fc18fc1ee815d0a5a2
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 22:31:24 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605022.03&format=json&pub_title__starts_with=Temp%20Points&sig=1bffc6122f555904708b4f985094bac150abfc2e8d2f7c40d6c8f0e8209125cf
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 23:10:22 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605056.82&format=json&pub_title__starts_with=Temp%20Points&sig=21d4d3d979ee33d57aac2cb50f7cf25ca52007bc7840bc146d7966934a0a0421
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 23:10:57 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605136.26&format=json&pub_title__starts_with=Temp%20Points&sig=b1eceb08101527fd2671ba04512b24f08e2da38d787317567d2ea83aa182334d
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 23:12:16 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605184.11&format=json&pub_title__starts_with=Temp%20Points&sig=624ed8b7450a372eed8a2696d798f9eab461002226a375d3619e070e71ac5731
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 23:13:04 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605211.22&format=json&pub_title__starts_with=Temp%20Points&sig=5fd611ca222f2eb6a010b6c0a9b0b73afb129d9dc0fd4d72d74d8500937b8909
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 23:13:32 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605233.33&format=json&pub_title__starts_with=Temp%20Points&sig=eaf73e3879691f2f6dda87526776ddb950da4e7bb05e93c9a075436934e43273
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 23:13:54 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "Temp Points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605821.50&format=json&pub_title__starts_with=temp_points&sig=9a29579a0ad70ad7f3471b231f38fbf3acd30fe1912451a0a10619e775650e4b
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 23:23:41 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "temp_points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605837.98&format=json&pub_title__starts_with=temp_points&sig=2e1c58b41287c7f78a4c0347ec2d73dd63ef6bd4d765d67f35b145df5245bf72
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 23:23:58 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "temp_points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282605966.43&format=json&pub_title__starts_with=temp_points&sig=e8b1ed080da8be8a3f25bf285d12877b6f88f1a53b1b63195dc507ab148b2337
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Mon, 23 Aug 2010 23:26:06 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "temp_points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/currency?time=1282606010.94&format=json&pub_title__starts_with=temp_points&sig=434987f8575a164a1f933626806e3d7b6970f9e2c25085d42fe8c7a15b120872
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 23 Aug 2010 23:26:51 GMT
+      content-length: 
+      - "630"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1281974693, 
+                  "pub_title": "temp_points", 
+                  "currency_type_title": "Skill Points", 
+                  "currency_type_id": 9, 
+                  "exchange_rate": "1.00", 
+                  "resource_name": "currency", 
+                  "urls": [], 
+                  "created_timestamp": 1281974693, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "relative_weight": 1, 
+                  "id": 579, 
+                  "currency_type_description": ""
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"

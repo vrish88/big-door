@@ -1,0 +1,46 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: !ruby/regexp /http:\/\/api\.bigdoor\.com\/api\/publisher\/0deee7386916481199b5cbc16e4800b0\/end_user\/.*\?/
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Mon, 16 Aug 2010 22:26:16 GMT
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"

@@ -39,7 +39,7 @@ module BigDoor
 		def method_missing(name, *args)
 			name, request_type, method_name = name.to_s.match(/(put|post|get|delete)_(.+)/).to_a
 			super(name, args) if name.nil? or request_type.nil? or method_name.nil?
-			perform_request request_type, method_name, args
+			perform_request request_type, method_name, args.first
 		end
 	end
 end

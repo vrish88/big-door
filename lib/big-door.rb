@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'httparty'
 require 'json'
 require 'uri'
@@ -23,12 +24,15 @@ module BigDoor
 			@secret_key
 		end
 
-		def perform_request(request_type, action, args=[])
-			raise BigDoorError, "Unknown request type`" unless ['get', 'post', 'put', 'delete'].include? request_type
-			query = args.last
+		def perform_request(*args)
+			request_type, action, args = args
+			raise BigDoorError, "Unknown request type" unless ['get', 'post', 'put', 'delete'].include? request_type
+
+			query = args
 			params = {}
 			query = {} if (query.is_a? Array and query.empty?) or query.nil?
-			
+			action << '/' + query.delete(:id).to_s if query.has_key? :id
+
 			if ['post', 'put'].include? request_type
 				params[:body] = query
 				params[:body][:time] = "%.2f" % Time.now.to_f
@@ -42,6 +46,7 @@ module BigDoor
 			params[:query][:sig] = calculate_sha2_hash(path, params)
 			params[:query][:format] = 'json'
 			url = [BASE_URL, path].join('/')
+			debugger if url =~ /transaction/
 			parse_response(BigDoor::Request.send(request_type, url, params))
 			# BigDoor::Request.send(request_type, url, params)
 		end
@@ -49,15 +54,28 @@ module BigDoor
 		private
 			def parse_response(response)
 				output = []
-				[*response.parsed_response.first].each do |result|
-					output << case result["resource_name"]
-											when 'end_user'
-												User.new(result)
-											else
-												result
-										end
+				raise BigDoorError, "#{response.response.code} #{response.response.message}" if response.response.class.ancestors.include? Net::HTTPClientError
+				
+				unless response.parsed_response.first.is_a? Array
+					content = ([] << response.parsed_response.first)
+				else
+					content = response.parsed_response.first
 				end
-				output
+				content.each do |result|
+					begin
+						output << case result["resource_name"]
+							when 'end_user'
+								User.new(result)
+							when 'currency'
+								Currency.new(result)
+							else
+								result
+						end
+					rescue
+						debugger
+					end
+				end
+				output.length == 1 ? output.first : output
 			end
 			
 			def calculate_sha2_hash(path, query)
@@ -86,7 +104,4 @@ module BigDoor
 end
 
 directory = File.expand_path(File.dirname(__FILE__))
-
-require File.join(directory, "big-door", "base")
-require File.join(directory, "big-door", "request")
-require File.join(directory, "big-door", "user")
+Dir[File.join(directory, "big-door", "*.rb").to_s].each {|file| require file }
