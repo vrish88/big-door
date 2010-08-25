@@ -23,6 +23,29 @@ module BigDoor
 		def self.secret_key
 			@secret_key
 		end
+		
+		def parse_out_classes(content)
+			output = []
+			content.each do |result|
+				begin
+					output << case result["resource_name"]
+						when 'end_user'
+							User.new(result)
+						when 'currency'
+							Currency.new(result)
+						when 'named_transaction'
+						  NamedTransaction.new(result)
+						when 'named_transaction_group'
+							NamedTransactionGroup.new(result)
+						else
+							result
+					end
+				rescue
+					debugger
+				end
+			end
+			return output
+		end
 
 		def perform_request(*args)
 			request_type, action, args = args
@@ -69,6 +92,7 @@ module BigDoor
 				else
 					content = ([] << response.parsed_response.first)
 				end
+				output = parse_out_classes(content)
 				output.length == 1 ? output.first : output
 			end
 			
