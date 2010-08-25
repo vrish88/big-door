@@ -64,4 +64,23 @@ describe "BigDoor" do
 			@currency.class.should eql(BigDoor::Currency)
 		end
 	end
+	
+	describe "handle named_transaction objects" do
+		it "should return all the named_transaction objects" do
+			VCR.use_cassette('named_transaction/named_transactions', :record => :new_episodes) do
+				@named_transactions = BigDoor::NamedTransaction.all
+			end
+			@named_transactions.first.class.should eql(BigDoor::NamedTransaction)
+		end
+	end
+	
+	describe "handle named_transaction_group objects" do
+		it "should return all the named_transaction_group objects" do
+			VCR.use_cassette('named_transaction_group/all', :record => :new_episodes) do
+				@named_transactions_group = BigDoor::NamedTransactionGroup.all
+			end
+			@named_transactions_group.first.class.should eql(BigDoor::NamedTransactionGroup)
+			[*@named_transactions_group.first.named_transactions].first.class.should eql(BigDoor::NamedTransaction)
+		end
+	end
 end

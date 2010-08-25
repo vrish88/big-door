@@ -28,9 +28,8 @@ module BigDoor
 			perform_request('get', "end_user/#{self.end_user_login}/transaction")
 		end
 		
-		def add_points(currency, points)
-			debugger
-			perform_request('post', "end_user/#{self.end_user_login}/transaction", {:id => currency.id, :amount => points})
+		def add_points(named_transaction_group, points)
+			perform_request('post', "named_transaction_group/#{named_transaction_group.id}/execute", {:id => self.end_user_login, :amount => points})
 		end
 		
 		def get_currency_balance(currency=nil)
