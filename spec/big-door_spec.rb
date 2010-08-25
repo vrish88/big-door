@@ -10,6 +10,21 @@ describe "BigDoor" do
 		it "should handle a method call that isn't valid" do
 			lambda { @big_door.hello_world }.should raise_error ArgumentError
 		end
+		
+		describe "response codes" do
+			it "should handle an integer" do
+				code = 13
+				BigDoor::ResponseCodes.find(code)[:code].should eql(code)
+			end
+			
+			it "should handle a hash" do
+				BigDoor::ResponseCodes.find(:http_response => 201)[:code].should eql(0)
+			end
+			
+			it "should raise an error if it's passed something that isn't a hash or number" do
+				lambda { BigDoor::ResponseCodes.find("I'm a n00b") }.should raise_error ArgumentError
+			end
+		end
 	end
 	
 	describe "map BigDoor users to Users object" do

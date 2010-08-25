@@ -53,27 +53,21 @@ module BigDoor
 
 		private
 			def parse_response(response)
-				output = []
-				raise BigDoorError, "#{response.response.code} #{response.response.message}" if response.response.class.ancestors.include? Net::HTTPClientError
-				
-				unless response.parsed_response.first.is_a? Array
-					content = ([] << response.parsed_response.first)
-				else
-					content = response.parsed_response.first
+				if response.response.class.ancestors.include? Net::HTTPClientError
+					raise BigDoorError, "#{response.response.code} #{response.response.message} - #{response.headers['bdm-reason-phrase'].to_s}"
 				end
-				content.each do |result|
-					begin
-						output << case result["resource_name"]
-							when 'end_user'
-								User.new(result)
-							when 'currency'
-								Currency.new(result)
-							else
-								result
-						end
-					rescue
-						debugger
+				
+				if response.parsed_response.is_a? Numeric
+					response_code = BigDoor::ResponseCodes.find response.parsed_response
+					if response_code[:is_error]
+						raise BigDoorError, "#{response_code[:code]} #{response_code[:response_condition]} - #{response_code[:reason_phrase]}"
+					else
+						return true
 					end
+				elsif response.parsed_response.first.is_a? Array
+					content = response.parsed_response.first
+				else
+					content = ([] << response.parsed_response.first)
 				end
 				output.length == 1 ? output.first : output
 			end
