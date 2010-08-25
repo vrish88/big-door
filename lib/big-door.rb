@@ -26,6 +26,9 @@ module BigDoor
 		
 		def parse_out_classes(content)
 			output = []
+			unless content.is_a? Array
+				content = Array[content]
+			end
 			content.each do |result|
 				begin
 					output << case result["resource_name"]
@@ -44,7 +47,8 @@ module BigDoor
 					debugger
 				end
 			end
-			return output
+			
+			output.length == 1 ? output.first : output
 		end
 
 		def perform_request(*args)
@@ -69,7 +73,6 @@ module BigDoor
 			params[:query][:sig] = calculate_sha2_hash(path, params)
 			params[:query][:format] = 'json'
 			url = [BASE_URL, path].join('/')
-			debugger if url =~ /transaction/
 			parse_response(BigDoor::Request.send(request_type, url, params))
 			# BigDoor::Request.send(request_type, url, params)
 		end
@@ -92,13 +95,12 @@ module BigDoor
 				else
 					content = ([] << response.parsed_response.first)
 				end
-				output = parse_out_classes(content)
-				output.length == 1 ? output.first : output
+				parse_out_classes(content)
 			end
 			
 			def calculate_sha2_hash(path, query)
 				path = '/' + path
-				Digest::SHA2.new(bitlen = 256).update(path + concat_query(query[:query]) + concat_query(query[:body]) + ClassMethods.secret_key).to_s rescue debugger
+				Digest::SHA2.new(bitlen = 256).update(path + concat_query(query[:query]) + concat_query(query[:body]) + ClassMethods.secret_key).to_s
 			end
 			
 			def concat_query(query)

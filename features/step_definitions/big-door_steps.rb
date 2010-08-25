@@ -10,7 +10,6 @@ Given /^I have a user$/ do
 end
 
 Given /^I have a "([^"]*)" named "([^"]*)"$/ do |action, name|
-	debugger
 	if action == "NamedTransaction"
 		VCR.use_cassette("NamedTransaction/specific", :record => :new_episodes) do
 			@transaction = BigDoor::NamedTransaction.find(:pub_title => name)
@@ -19,7 +18,6 @@ Given /^I have a "([^"]*)" named "([^"]*)"$/ do |action, name|
 		VCR.use_cassette("named_transaction_group/specific", :record => :new_episodes) do
 			@grp_trans = BigDoor::NamedTransactionGroup.find(:pub_title__startswith => name)
 		end
-		debugger
 		@grp_trans.should_not eql(nil)
 	end
 end
@@ -45,11 +43,11 @@ When /^I check the user's "([^\"]*)"$/ do |action|
 end
 
 When /^I add "([^\"]*)" points to users's account$/ do |points|
-	VCR.use_cassette('user/currency_balance', :record => :new_episodes) do
-		# @old_points = @user.get_currency_balance(@currency)
+	VCR.use_cassette('user/currency_balance', :match_requests_on => {:path => /end_user\/#{@user.end_user_login}\/currency_balance/}) do
+		@old_points = @user.get_currency_balance(@currency)
 	end
 
-	VCR.use_cassette('user/add_points', :record => :new_episodes) do
+	VCR.use_cassette('user/add_points', :record => :all, :match_requests_on => {:path => /named_transaction_group\/#{@grp_trans.id}\/execute\/#{@user.end_user_login}/}) do
 		@user.add_points(@grp_trans, points.to_i)
 	end
 end
@@ -75,6 +73,11 @@ Then /^the response should be "([^"]*)"$/ do |arg1|
 	@response.should eql(eval(arg1))
 end
 
-Then /^their account should have "([^\"]*)" more points$/ do |arg1|\
-  pending # express the regexp above with the code you wish you had
+Then /^their account should have "([^\"]*)" more points$/ do |points|
+	new_points = {}
+	VCR.use_cassette('user/new_currency_balance', :match_requests_on => {:path => /end_user\/#{@user.end_user_login}\/currency_balance/}) do
+		new_points = @user.get_currency_balance(@currency)
+	end
+
+	new_points["curr_balance"].to_i.should eql(@old_points['curr_balance'].to_i + points.to_i)
 end

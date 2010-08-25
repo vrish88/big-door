@@ -1,0 +1,403 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/currency_balance?time=1282767045.94&format=json&sig=330ab7b9fb2aa1d2ee1c4d09f4cce16cae60857da855cf693cb03ab02eac501d
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 20:10:46 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1343"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1282767045, 
+                  "pub_title": "temp_points", 
+                  "transaction_group_id": "702e26b7dfa254fd4311f656c8751225", 
+                  "adjustment_amount": "30.00", 
+                  "id": 10215423, 
+                  "currency": {
+                      "end_user_description": null, 
+                      "read_only": 0, 
+                      "modified_timestamp": 1281974693, 
+                      "pub_title": "temp_points", 
+                      "currency_type_title": "Skill Points", 
+                      "currency_type_id": 9, 
+                      "exchange_rate": "1.00", 
+                      "resource_name": "currency", 
+                      "urls": [], 
+                      "created_timestamp": 1281974693, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points", 
+                      "relative_weight": 1, 
+                      "id": 579, 
+                      "currency_type_description": ""
+                  }, 
+                  "prev_balance": "300.00", 
+                  "resource_name": "end_user_currency_balance", 
+                  "created_timestamp": 1282752987, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "end_user_login": "tester", 
+                  "curr_balance": "330.00"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/currency_balance?time=1282767072.44&format=json&sig=234bd1f76752a9cfe51fb3b187bf9cd566956e5a4efa9ad8db0aa22994430d7c
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:11:13 GMT
+      content-length: 
+      - "1343"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1282767072, 
+                  "pub_title": "temp_points", 
+                  "transaction_group_id": "11d76bb5aa2e6f957dcbbefeea1113ac", 
+                  "adjustment_amount": "30.00", 
+                  "id": 10215423, 
+                  "currency": {
+                      "end_user_description": null, 
+                      "read_only": 0, 
+                      "modified_timestamp": 1281974693, 
+                      "pub_title": "temp_points", 
+                      "currency_type_title": "Skill Points", 
+                      "currency_type_id": 9, 
+                      "exchange_rate": "1.00", 
+                      "resource_name": "currency", 
+                      "urls": [], 
+                      "created_timestamp": 1281974693, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points", 
+                      "relative_weight": 1, 
+                      "id": 579, 
+                      "currency_type_description": ""
+                  }, 
+                  "prev_balance": "330.00", 
+                  "resource_name": "end_user_currency_balance", 
+                  "created_timestamp": 1282752987, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "end_user_login": "tester", 
+                  "curr_balance": "360.00"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/currency_balance?time=1282767111.94&format=json&sig=0b17fb3d01e1c6a460349250173c71f11b04fb4894eb2dc929fe6122406b27e4
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 20:11:52 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1343"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1282767107, 
+                  "pub_title": "temp_points", 
+                  "transaction_group_id": "dcaa7ff6bdfee3a0bfb2704e9aa8953a", 
+                  "adjustment_amount": "30.00", 
+                  "id": 10215423, 
+                  "currency": {
+                      "end_user_description": null, 
+                      "read_only": 0, 
+                      "modified_timestamp": 1281974693, 
+                      "pub_title": "temp_points", 
+                      "currency_type_title": "Skill Points", 
+                      "currency_type_id": 9, 
+                      "exchange_rate": "1.00", 
+                      "resource_name": "currency", 
+                      "urls": [], 
+                      "created_timestamp": 1281974693, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points", 
+                      "relative_weight": 1, 
+                      "id": 579, 
+                      "currency_type_description": ""
+                  }, 
+                  "prev_balance": "360.00", 
+                  "resource_name": "end_user_currency_balance", 
+                  "created_timestamp": 1282752987, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "end_user_login": "tester", 
+                  "curr_balance": "390.00"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/currency_balance?time=1282767186.96&format=json&sig=11215ef8e43e16ae5c5d74973a3b302e26c0e32b9e69569b8a9dff5c50faaa45
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:13:07 GMT
+      content-length: 
+      - "1343"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1282767186, 
+                  "pub_title": "temp_points", 
+                  "transaction_group_id": "aac24faf35bb5a01a34daeb7e34f44c9", 
+                  "adjustment_amount": "30.00", 
+                  "id": 10215423, 
+                  "currency": {
+                      "end_user_description": null, 
+                      "read_only": 0, 
+                      "modified_timestamp": 1281974693, 
+                      "pub_title": "temp_points", 
+                      "currency_type_title": "Skill Points", 
+                      "currency_type_id": 9, 
+                      "exchange_rate": "1.00", 
+                      "resource_name": "currency", 
+                      "urls": [], 
+                      "created_timestamp": 1281974693, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points", 
+                      "relative_weight": 1, 
+                      "id": 579, 
+                      "currency_type_description": ""
+                  }, 
+                  "prev_balance": "390.00", 
+                  "resource_name": "end_user_currency_balance", 
+                  "created_timestamp": 1282752987, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "end_user_login": "tester", 
+                  "curr_balance": "420.00"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/currency_balance?time=1282767205.75&format=json&sig=14acf16a77db45994db5ca942b1630e1ea92b3f9f69e75e9055f97621e1b966f
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 20:13:25 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1343"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1282767205, 
+                  "pub_title": "temp_points", 
+                  "transaction_group_id": "a64891b11d76f0456eb69b5ad9c1d49c", 
+                  "adjustment_amount": "30.00", 
+                  "id": 10215423, 
+                  "currency": {
+                      "end_user_description": null, 
+                      "read_only": 0, 
+                      "modified_timestamp": 1281974693, 
+                      "pub_title": "temp_points", 
+                      "currency_type_title": "Skill Points", 
+                      "currency_type_id": 9, 
+                      "exchange_rate": "1.00", 
+                      "resource_name": "currency", 
+                      "urls": [], 
+                      "created_timestamp": 1281974693, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points", 
+                      "relative_weight": 1, 
+                      "id": 579, 
+                      "currency_type_description": ""
+                  }, 
+                  "prev_balance": "420.00", 
+                  "resource_name": "end_user_currency_balance", 
+                  "created_timestamp": 1282752987, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "end_user_login": "tester", 
+                  "curr_balance": "450.00"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/currency_balance?time=1282767222.73&format=json&sig=3d5a2f0a8370159ad774ad4f2fee70c62c8df3798072343c671958b48037ada9
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:13:42 GMT
+      content-length: 
+      - "1343"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1282767222, 
+                  "pub_title": "temp_points", 
+                  "transaction_group_id": "d64087569efdde6f93cc897d699e9f8d", 
+                  "adjustment_amount": "30.00", 
+                  "id": 10215423, 
+                  "currency": {
+                      "end_user_description": null, 
+                      "read_only": 0, 
+                      "modified_timestamp": 1281974693, 
+                      "pub_title": "temp_points", 
+                      "currency_type_title": "Skill Points", 
+                      "currency_type_id": 9, 
+                      "exchange_rate": "1.00", 
+                      "resource_name": "currency", 
+                      "urls": [], 
+                      "created_timestamp": 1281974693, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points", 
+                      "relative_weight": 1, 
+                      "id": 579, 
+                      "currency_type_description": ""
+                  }, 
+                  "prev_balance": "450.00", 
+                  "resource_name": "end_user_currency_balance", 
+                  "created_timestamp": 1282752987, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "end_user_login": "tester", 
+                  "curr_balance": "480.00"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"

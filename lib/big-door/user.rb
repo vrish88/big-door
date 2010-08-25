@@ -35,7 +35,11 @@ module BigDoor
 		def get_currency_balance(currency=nil)
 			params = {}
 			params[:id] = currency.id.to_s unless currency.nil?
-			perform_request('get', "end_user/#{self.end_user_login}/currency_balance", params)
+			result = perform_request('get', "end_user/#{self.end_user_login}/currency_balance", params)
+			result = parse_out_classes(result)
+			result['currency'] = parse_out_classes(result['currency'])
+
+			return result
 		end
 	end
 end
