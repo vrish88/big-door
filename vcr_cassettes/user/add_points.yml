@@ -551,3 +551,603 @@
       - Cookie,Accept-Encoding
     body: ""
     http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/transaction/579?time=1282660134.00&format=json&sig=973f17b9260a06565d364e413e5b036fda9272bff3c77925211370cba4c35b17
+    body: time=1282660134.00&token=e152ec9e741808ba934cb518a012d56b&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 24 Aug 2010 14:29:00 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "0"
+      vary: 
+      - Cookie,Accept-Encoding
+    body: ""
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0//named_transaction_group/579/end_user/tester?time=1282679877.52&format=json&sig=fcde3df8e6e4592523d20996f4a0e7619f91081107b84d497e3799ef98dfbde1
+    body: time=1282679877.52&token=28b6eea44a958ab409c764df526a9d6c&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 24 Aug 2010 19:58:12 GMT
+      content-length: 
+      - "0"
+      vary: 
+      - Cookie,Accept-Encoding
+    body: ""
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/579/end_user/tester?time=1282679900.39&format=json&sig=80ae930a35018c440ea2db6a5c5ec3f136108ab09b13e2bed3c9b4afe187094e
+    body: time=1282679900.39&token=f2d51041c6c28e7a9a6f88c26347e443&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 24 Aug 2010 19:58:25 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "0"
+      vary: 
+      - Cookie,Accept-Encoding
+    body: ""
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/579/execute/tester?time=1282679930.16&format=json&sig=fefd33e300ceba131134aa1b0e741cfcb867ca66842f81271da1fe5ac9f28b86
+    body: time=1282679930.16&token=d4b3057da734aaa0552245a1a41f6ef5&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 24 Aug 2010 19:58:53 GMT
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/579/execute/tester?time=1282680007.84&format=json&sig=27aedea6f65b6bb9348723193888cfe73af3f73e334baca4ea808ea4b0d4c67a
+    body: time=1282680007.84&token=38b010c0396c2793b5263a83f5715293&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 24 Aug 2010 20:00:56 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/579/execute/6263ffd7a0af11df94fb7339fb3db728?time=1282688490.18&format=json&sig=c0cd52d323e377f1a3aa768be3088a9754872adef47c06223e7a8856937f97e7
+    body: time=1282688490.18&token=85877a92b78bb0b77e653704c0a521ce&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 24 Aug 2010 22:21:35 GMT
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/579/execute/tester?time=1282749757.10&format=json&sig=6b817213a8553b4939fcee5f83b58be747dcd697d87eeac8afe291505a1f8979
+    body: time=1282749757.10&token=96663d90ace31dadd37752b48cb6f15d&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:22:43 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/4/execute/tester?time=1282749805.88&format=json&sig=f4187fa182afbf954e20c38e78d7b66d2edacca81cae2e1611be52008a2bf96c
+    body: time=1282749805.88&token=4321538f44757d228f0e936e4ce79abb&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:23:38 GMT
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/4/execute/tester?time=1282749847.95&format=json&sig=7d27ecddf0ecf1ae4b229eca7e764a15ff46c3fcd17de3982868ccb374f65cf7
+    body: time=1282749847.95&token=344aa7356bc1b9fa7f094f76180ca5fb&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:24:13 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/13678340/execute/tester?time=1282750766.89&format=json&sig=251f4526d1ae087e3263c5f19409d7c0c3df4e20b237b112501e1cfc31c563f5
+    body: time=1282750766.89&token=44458104f3735910ef22bf6152460d93&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:39:27 GMT
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/13670050/execute/tester?time=1282751043.20&format=json&sig=7fbaba36e4098cb1f89ab754cf50e4c1679869bbce66fa8194a24a5f03cc7b63
+    body: time=1282751043.20&token=c41f7f59ce780a39d9258d7a956bc7d9&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:44:03 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/13662360/execute/tester?time=1282752824.15&format=json&sig=b33f4881f5ce57ae402aabcf716629c8ebcd5112850f28d6e13c8f42d4414878
+    body: time=1282752824.15&token=ffb30ea2b53a803e17f243f3ed0038b6&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:13:44 GMT
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/13616760/execute/tester?time=1282752891.49&format=json&sig=6dbe157103224cdb45b30f1e30b68781b4131e06004eea4abeda41a5d369f169
+    body: time=1282752891.49&token=f561013df0a0bf6a1a6660567b89ae2c&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 16:15:01 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/612135/execute/tester?time=1282752982.83&format=json&sig=b3ae88601693826f8dd8845e99ff224eef425bd612e3bee0347ece269761b849
+    body: time=1282752982.83&token=533bff6022a5e8ac8b9ff11def4fea82&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      bdm-reason-phrase: 
+      - Created
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:16:27 GMT
+      content-length: 
+      - "1"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: "0"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/13606750/execute/tester?time=1282753708.74&format=json&sig=5531f08f1074c65e23bac152aa8df320ca8b8b3b65210018f9b6bf12bb7193f8
+    body: time=1282753708.74&token=74b45e4e4af483bc62b8f94055c400b1&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 16:28:30 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/13577080/execute/tester?time=1282753755.64&format=json&sig=ff1659bb26dc35cdf8eff1620fd15c1e8264eea68472b1d4361cc3d7fa2fac43
+    body: time=1282753755.64&token=558728969d257a8218b0c66608a97cdf&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:29:47 GMT
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/612135/execute/tester?time=1282753806.20&format=json&sig=9448baaa7e4e721d7b666ad763014dd9c55fcdcf15dcdbc0e227c1b5cec18ac7
+    body: time=1282753806.20&token=30cda9023b58c8640990226ec6589125&amount=30
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      bdm-reason-phrase: 
+      - Created
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 16:30:07 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: "0"
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/612135/execute/tester?time=1282753848.31&format=json&sig=9683707fcafe7baf43591b3fb069917dbc5988e9ef90ca911f26e10898fe9734
+    body: time=1282753848.31&token=9ee264f31d1e52c2fce7df96b2def4b0&amount=30
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "67"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      bdm-reason-phrase: 
+      - Created
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:30:49 GMT
+      content-length: 
+      - "1"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: "0"
+    http_version: "1.1"

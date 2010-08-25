@@ -10,15 +10,17 @@ Given /^I have a user$/ do
 end
 
 Given /^I have a "([^"]*)" named "([^"]*)"$/ do |action, name|
+	debugger
 	if action == "NamedTransaction"
 		VCR.use_cassette("NamedTransaction/specific", :record => :new_episodes) do
 			@transaction = BigDoor::NamedTransaction.find(:pub_title => name)
 		end
-	elsif action == 'Currency'
-		VCR.use_cassette("currency/specific", :record => :new_episodes) do
-			@currency = BigDoor::Currency.find(:pub_title__starts_with => name)
+	elsif action == 'NamedTransactionGroup'
+		VCR.use_cassette("named_transaction_group/specific", :record => :new_episodes) do
+			@grp_trans = BigDoor::NamedTransactionGroup.find(:pub_title__startswith => name)
 		end
-		@currency.should_not eql(nil)
+		debugger
+		@grp_trans.should_not eql(nil)
 	end
 end
 
@@ -48,7 +50,7 @@ When /^I add "([^\"]*)" points to users's account$/ do |points|
 	end
 
 	VCR.use_cassette('user/add_points', :record => :new_episodes) do
-		@user.add_points(@currency, points.to_i)
+		@user.add_points(@grp_trans, points.to_i)
 	end
 end
 

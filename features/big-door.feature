@@ -21,7 +21,6 @@ Feature: Provide API access to Big Door media
 	Scenario: Adding points to a user's account
 		Given I have API credentials
 		And I have a user
-		And I have a "Currency" named "temp_points"
-		And I have a "NamedTransaction" named "Basic"
+		And I have a "NamedTransactionGroup" named "Not so basic"
 		When I add "30" points to users's account
 		Then their account should have "30" more points

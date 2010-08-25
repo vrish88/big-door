@@ -2415,3 +2415,1477 @@
           {}
       ]
     http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282660121.18&format=json&sig=d760ec2a90bb4cb919358bb3e85a64588c15f2b7402d0a59f73694a7ba0824c0
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 24 Aug 2010 14:28:41 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282679604.80&format=json&sig=0e177041da50efbb94a9ed2b006f28301967aad71e2ee0cb36eb0810cc166147
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 24 Aug 2010 19:53:25 GMT
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282679897.48&format=json&sig=475a329fbdaf923ca9629d9e978fc42bec0bc1df36d635f8910d547080e18f5b
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 24 Aug 2010 19:58:17 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282679927.59&format=json&sig=9aa1838a60a2892892726d464666fa7135d4988aa70ca07cd021f9737a7ccbce
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 24 Aug 2010 19:58:47 GMT
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282680005.41&format=json&sig=72ae8e336a75cd5d3b6ee5a5513cdc9d35930d87a8cf54d8a9203094e93a4923
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 24 Aug 2010 20:00:05 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282686135.29&format=json&sig=4947700d64d4c1f7062a51788dd1ff89fa1b121528569b9dfad5d284831f09d5
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 24 Aug 2010 21:42:15 GMT
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282688454.02&format=json&sig=552edc2e52b248b1778c861c8cc3dd6c0b48f2d5f42441b3db3d5a60c7ca5599
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 24 Aug 2010 22:20:54 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "435"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282749724.92&format=json&sig=dbd202fa671c3f233f42162dc90e1e42e4a46a3da2cad8a3ae485e5ba70f7d6b
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:22:05 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282749753.61&format=json&sig=c483f23c33e17017ba459e3cc21b8653335d435d8cbf3c2b113996c0af3450c1
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:22:33 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282749802.47&format=json&sig=76a4feead678711f568ec49d0f2a58db16cce740548c24e306187b9238eef36a
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:23:22 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282749845.68&format=json&sig=a4006d05a467c9d47b2e300069422da9f354be4ad0ab775caae31dbdcb71e8a5
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:24:05 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282749885.74&format=json&sig=23cdc9c11976b4f0267ff81a0545e7ba0ef146c01ca636a4dc232345f1db3d80
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:24:46 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282749920.76&format=json&sig=9dc702d62edb00d78bcc621166f7c9f993e12923543d17d9c5a67762ffc5575d
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:25:20 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282749932.67&format=json&sig=c2aa76d633bce545c53fa506b31dbbf5899fcb28947c5614f460351d1299c5a0
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:25:32 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282750553.71&format=json&sig=58afecdc59a904eedaab19b79fd2904975fe8c7616d448aeadb621578209a4ee
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:35:53 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282750615.66&format=json&sig=db17ed59ff9be7537cc5d89e13dd5d1d042efed344c4f26b879d30e7bd703c15
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:36:55 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282750674.18&format=json&sig=ee4a352b17396af2a1af129c9a8033a02f31c31f4784d0db3378fa35206c71ff
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:37:54 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282750743.48&format=json&sig=b8129d1b65ee54882871452f3f7ddade0fd55a671df4e7a8a9ad4fe75dce2f75
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:39:03 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282750785.91&format=json&sig=d2d7129307404cd2214c62d2aac7d697eceb1daf7b0ee7c030ec4fe46cb7cb7a
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 15:39:46 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282751343.67&format=json&sig=3066d2a7c787b608bf53f1c4d537b6e9e1601932fc6cd93453555f91af887711
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:49:03 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282752856.21&format=json&sig=ee0839c6cff8c8454072b64564c8526ea86c91ee38818abd6f69ae2741525cb2
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 16:14:16 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282752973.67&format=json&sig=0058aae378e7ea13d089951189d4a5dc25556b11eec41ad2bcba40f3c42c6ad2
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:16:13 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282753703.58&format=json&sig=4474449d563f0c20be14ddd333ef58c568a8bb78ef030ab3d56e8f7a86e41527
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 16:28:23 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282753746.55&format=json&sig=240711df5432c001d5a102859ed71bdd2878ccda53334aa8241bd8030ac1463e
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:29:06 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282753789.96&format=json&sig=93f57e1879ce64d28eb578b9863cfd2f169e5c2c9140b380a9e6d05bc4774e59
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 16:29:50 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/testers?time=1282753841.29&format=json&sig=90f13fa660b1159ca764f515a632a4e90bea1ce04fc7e7286ed1b7443f637200
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:30:41 GMT
+      content-length: 
+      - "1080"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1281043384, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [
+                  {
+                      "end_user_description": null, 
+                      "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                      "modified_timestamp": 1282689777, 
+                      "pub_title": "temp_points", 
+                      "urls": [], 
+                      "current_balance": "30.00", 
+                      "adjustment_amount": "30.00", 
+                      "currency_id": 579, 
+                      "previous_balance": "0.00", 
+                      "currency_adjusted": false, 
+                      "created_timestamp": 1282689777, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points"
+                  }
+              ], 
+              "created_timestamp": 1281043384, 
+              "end_user_login": "testers", 
+              "guid": "a24ff58ca0d711df966120ad2f73afad", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
