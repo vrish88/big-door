@@ -20,6 +20,10 @@ module BigDoor
 			perform_request('get', 'end_user')
 		end
 		
+		def self.create(params)
+			perform_request('post', 'end_user', params)
+		end
+		
 		def self.find(login)
 			perform_request('get', 'end_user', {:id => login})
 		end

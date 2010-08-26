@@ -14,14 +14,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 15:49:07 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:49:07 GMT
       content-length: 
       - "4872"
       vary: 
@@ -158,14 +158,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 16:14:36 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -247,14 +247,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 16:16:17 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:16:17 GMT
       content-length: 
       - "2446"
       vary: 
@@ -336,14 +336,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 16:28:26 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -425,14 +425,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 16:29:09 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:29:09 GMT
       content-length: 
       - "2446"
       vary: 
@@ -514,14 +514,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 16:29:52 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -603,14 +603,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 16:30:47 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 16:30:47 GMT
       content-length: 
       - "2446"
       vary: 
@@ -692,14 +692,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 18:57:34 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -781,14 +781,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 19:00:30 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 19:00:30 GMT
       content-length: 
       - "2446"
       vary: 
@@ -870,14 +870,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 19:01:10 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -959,14 +959,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 19:02:33 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 19:02:33 GMT
       content-length: 
       - "2446"
       vary: 
@@ -1048,14 +1048,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 19:23:54 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -1137,14 +1137,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 19:27:32 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 19:27:32 GMT
       content-length: 
       - "2446"
       vary: 
@@ -1226,14 +1226,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 19:27:53 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -1315,14 +1315,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 19:28:49 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 19:28:49 GMT
       content-length: 
       - "2446"
       vary: 
@@ -1404,14 +1404,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 19:29:15 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -1493,14 +1493,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 19:30:20 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 19:30:20 GMT
       content-length: 
       - "2446"
       vary: 
@@ -1582,14 +1582,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 19:33:17 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -1671,14 +1671,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 19:33:53 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 19:33:53 GMT
       content-length: 
       - "2446"
       vary: 
@@ -1760,14 +1760,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 19:38:22 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -1849,14 +1849,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 19:38:32 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 19:38:32 GMT
       content-length: 
       - "2446"
       vary: 
@@ -1938,14 +1938,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 19:53:22 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -2027,14 +2027,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:00:23 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:00:23 GMT
       content-length: 
       - "2446"
       vary: 
@@ -2116,14 +2116,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:01:30 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -2205,14 +2205,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:04:58 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:04:58 GMT
       content-length: 
       - "2446"
       vary: 
@@ -2294,14 +2294,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:05:20 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -2383,14 +2383,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:05:39 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:05:39 GMT
       content-length: 
       - "2446"
       vary: 
@@ -2472,14 +2472,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:09:58 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -2561,14 +2561,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:10:44 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:10:44 GMT
       content-length: 
       - "2446"
       vary: 
@@ -2650,14 +2650,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:11:11 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -2739,14 +2739,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:11:42 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:11:42 GMT
       content-length: 
       - "2446"
       vary: 
@@ -2828,14 +2828,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:12:17 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "2446"
       vary: 
@@ -2917,14 +2917,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:13:24 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:13:24 GMT
       content-length: 
       - "2446"
       vary: 
@@ -3006,6 +3006,95 @@
       code: 200
       message: OK
     headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Wed, 25 Aug 2010 20:13:41 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "2446"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": "Not at all basic", 
+                  "read_only": 0, 
+                  "end_user_cap": -1, 
+                  "pub_title": "Not so basic", 
+                  "named_transactions": [
+                      {
+                          "end_user_description": "Not at all basic", 
+                          "default_amount": "600.00", 
+                          "modified_timestamp": 1281998077, 
+                          "pub_title": "Not so basic", 
+                          "named_good": null, 
+                          "id": 612887, 
+                          "named_transaction_group_ratio": "-1.00", 
+                          "named_transaction_is_primary": 1, 
+                          "currency_id": 579, 
+                          "is_source": 1, 
+                          "resource_name": "named_transaction", 
+                          "read_only": 0, 
+                          "variable_amount_allowed": 1, 
+                          "vendor_publisher_title": null, 
+                          "attributes": [], 
+                          "created_timestamp": 1281998077, 
+                          "pub_description": "Not at all basic", 
+                          "end_user_title": "Not so basic", 
+                          "currency": {
+                              "end_user_description": null, 
+                              "read_only": 0, 
+                              "modified_timestamp": 1281974693, 
+                              "pub_title": "temp_points", 
+                              "currency_type_title": "Skill Points", 
+                              "currency_type_id": 9, 
+                              "exchange_rate": "1.00", 
+                              "resource_name": "currency", 
+                              "urls": [], 
+                              "created_timestamp": 1281974693, 
+                              "pub_description": null, 
+                              "end_user_title": "Temp Points", 
+                              "relative_weight": 1, 
+                              "id": 579, 
+                              "currency_type_description": ""
+                          }, 
+                          "notifiable_event": 0
+                      }
+                  ], 
+                  "modified_timestamp": 1281998076, 
+                  "end_user_cap_interval": -1, 
+                  "challenge_response_enabled": 0, 
+                  "urls": [], 
+                  "created_timestamp": 1281998076, 
+                  "pub_description": "Not at all basic", 
+                  "end_user_title": "Not so basic", 
+                  "id": 612135, 
+                  "resource_name": "named_transaction_group"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group?pub_title__startswith=Not%20so%20basic&time=1282839853.68&format=json&sig=3ab6e5ae26d13acaabd37117f33af04806e73f499c22318a23c2bb8c4383826a
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
       connection: 
       - Close
       content-type: 
@@ -3013,7 +3102,7 @@
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       date: 
-      - Wed, 25 Aug 2010 20:13:41 GMT
+      - Thu, 26 Aug 2010 16:24:13 GMT
       content-length: 
       - "2446"
       vary: 

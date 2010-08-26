@@ -46,6 +46,15 @@ describe "BigDoor" do
 			end
 		end
 		
+		it "should create a user with an id that is an email address" do
+			email = "fakeemailer@trada.com"
+			VCR.use_cassette('user/create', :record => :new_episodes) do
+				@response = BigDoor::User.create(:end_user_login => email, :guid => SecureRandom.hex)
+			end
+			
+			@response.end_user_login.should eql(email)
+		end
+		
 		it "should get a specific user" do
 			VCR.use_cassette('user/specific', :record => :new_episodes) do
 				@user = BigDoor::User.find('testers')
@@ -53,6 +62,16 @@ describe "BigDoor" do
 
 			[*@user].length.should eql(1)
 			@user.end_user_login.should eql('testers')
+		end
+		
+		it "should get a specific user that uses an email address" do
+			email = 'fakeemailer@trada.com'
+			VCR.use_cassette('user/specific', :record => :new_episodes) do
+				@user = BigDoor::User.find(email)
+			end
+
+			[*@user].length.should eql(1)
+			@user.end_user_login.should eql(email)
 		end
 	end
 	

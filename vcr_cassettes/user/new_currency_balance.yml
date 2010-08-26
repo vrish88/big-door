@@ -14,14 +14,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:10:46 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:10:46 GMT
       content-length: 
       - "1343"
       vary: 
@@ -81,14 +81,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:11:13 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "1343"
       vary: 
@@ -148,14 +148,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:11:52 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:11:52 GMT
       content-length: 
       - "1343"
       vary: 
@@ -215,14 +215,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:13:07 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "1343"
       vary: 
@@ -282,14 +282,14 @@
       code: 200
       message: OK
     headers: 
-      content-type: 
-      - application/json; charset=utf-8
       connection: 
       - Close
-      date: 
-      - Wed, 25 Aug 2010 20:13:25 GMT
+      content-type: 
+      - application/json; charset=utf-8
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 20:13:25 GMT
       content-length: 
       - "1343"
       vary: 
@@ -349,14 +349,14 @@
       code: 200
       message: OK
     headers: 
-      connection: 
-      - Close
       content-type: 
       - application/json; charset=utf-8
-      server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      connection: 
+      - Close
       date: 
       - Wed, 25 Aug 2010 20:13:42 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       content-length: 
       - "1343"
       vary: 
@@ -396,6 +396,73 @@
                   "end_user_title": "Temp Points", 
                   "end_user_login": "tester", 
                   "curr_balance": "480.00"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/tester/currency_balance?time=1282839856.26&format=json&sig=919435c95e697c166a072a74bef062a761bde64913fefa87a0a46fda5d55bbcf
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Thu, 26 Aug 2010 16:24:16 GMT
+      content-length: 
+      - "1343"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": null, 
+                  "read_only": 0, 
+                  "modified_timestamp": 1282839855, 
+                  "pub_title": "temp_points", 
+                  "transaction_group_id": "fc525f3d2d6febd71dcbf40cec2fe054", 
+                  "adjustment_amount": "30.00", 
+                  "id": 10215423, 
+                  "currency": {
+                      "end_user_description": null, 
+                      "read_only": 0, 
+                      "modified_timestamp": 1281974693, 
+                      "pub_title": "temp_points", 
+                      "currency_type_title": "Skill Points", 
+                      "currency_type_id": 9, 
+                      "exchange_rate": "1.00", 
+                      "resource_name": "currency", 
+                      "urls": [], 
+                      "created_timestamp": 1281974693, 
+                      "pub_description": null, 
+                      "end_user_title": "Temp Points", 
+                      "relative_weight": 1, 
+                      "id": 579, 
+                      "currency_type_description": ""
+                  }, 
+                  "prev_balance": "480.00", 
+                  "resource_name": "end_user_currency_balance", 
+                  "created_timestamp": 1282752987, 
+                  "pub_description": null, 
+                  "end_user_title": "Temp Points", 
+                  "end_user_login": "tester", 
+                  "curr_balance": "510.00"
               }
           ], 
           {}

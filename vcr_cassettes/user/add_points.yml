@@ -2,8 +2,8 @@
 - !ruby/struct:VCR::HTTPInteraction 
   request: !ruby/struct:VCR::Request 
     method: :post
-    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/612135/execute/tester?time=1282767222.23&format=json&sig=01e14199a9f9bd204eb0b3e0486f2132165a7fdcc02c60243f9895017321abfe
-    body: time=1282767222.23&token=d64087569efdde6f93cc897d699e9f8d&amount=30
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/named_transaction_group/612135/execute/tester?time=1282839854.71&format=json&sig=78cb00653fa756fb5f641bd171fcacde15fc5111c8ef8874d708f0d644a7401d
+    body: time=1282839854.71&token=fc525f3d2d6febd71dcbf40cec2fe054&amount=30
     headers: 
       content-type: 
       - application/x-www-form-urlencoded
@@ -25,9 +25,9 @@
       content-type: 
       - text/html; charset=utf-8
       server: 
-      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny9 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       date: 
-      - Wed, 25 Aug 2010 20:13:42 GMT
+      - Thu, 26 Aug 2010 16:24:15 GMT
       content-length: 
       - "1"
       vary: 
