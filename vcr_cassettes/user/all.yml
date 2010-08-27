@@ -1,0 +1,473 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?sig=f107fb1b239467b0bc42bc7d8b561f5e09c5bab7cc23c7d37e1d6b7ab478df3f&time=1282851496.07&format=json
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Thu, 26 Aug 2010 19:38:16 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "3376"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851345, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851345, 
+                  "end_user_login": "fakeemail@trada.com", 
+                  "guid": "1ef9e7b0b14911df91a9c5fca3bf701b", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851363, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851363, 
+                  "end_user_login": "fakeemailer@trada.com", 
+                  "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281026097, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc525f3d2d6febd71dcbf40cec2fe054", 
+                          "modified_timestamp": 1282839855, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "510.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "480.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282752987, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281026097, 
+                  "end_user_login": "tester", 
+                  "guid": "6263ffd7a0af11df94fb7339fb3db728", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281043384, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                          "modified_timestamp": 1282689777, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "30.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "0.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282689777, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281043384, 
+                  "end_user_login": "testers", 
+                  "guid": "a24ff58ca0d711df966120ad2f73afad", 
+                  "received_good_summaries": []
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?sig=19737eeb78baecb4c1e4abe2337eb2db46a3d6cd616fef1cdcc223f0635e9ec4&time=1282851667.83&format=json
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Thu, 26 Aug 2010 19:41:08 GMT
+      content-length: 
+      - "3376"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851345, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851345, 
+                  "end_user_login": "fakeemail@trada.com", 
+                  "guid": "1ef9e7b0b14911df91a9c5fca3bf701b", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851363, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851363, 
+                  "end_user_login": "fakeemailer@trada.com", 
+                  "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281026097, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc525f3d2d6febd71dcbf40cec2fe054", 
+                          "modified_timestamp": 1282839855, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "510.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "480.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282752987, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281026097, 
+                  "end_user_login": "tester", 
+                  "guid": "6263ffd7a0af11df94fb7339fb3db728", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281043384, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                          "modified_timestamp": 1282689777, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "30.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "0.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282689777, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281043384, 
+                  "end_user_login": "testers", 
+                  "guid": "a24ff58ca0d711df966120ad2f73afad", 
+                  "received_good_summaries": []
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?sig=b795042f516f813a5a830069aeed914460ab3fabfc14a5443c4c5082e0acd89c&time=1282851684.82&format=json
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Thu, 26 Aug 2010 19:41:25 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "3376"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851345, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851345, 
+                  "end_user_login": "fakeemail@trada.com", 
+                  "guid": "1ef9e7b0b14911df91a9c5fca3bf701b", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851363, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851363, 
+                  "end_user_login": "fakeemailer@trada.com", 
+                  "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281026097, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc525f3d2d6febd71dcbf40cec2fe054", 
+                          "modified_timestamp": 1282839855, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "510.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "480.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282752987, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281026097, 
+                  "end_user_login": "tester", 
+                  "guid": "6263ffd7a0af11df94fb7339fb3db728", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281043384, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                          "modified_timestamp": 1282689777, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "30.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "0.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282689777, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281043384, 
+                  "end_user_login": "testers", 
+                  "guid": "a24ff58ca0d711df966120ad2f73afad", 
+                  "received_good_summaries": []
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?sig=e66f97b2fb049f89cb12ddc133a136d631b8dea3ab2916c2da183fd54723bee2&time=1282851764.81&format=json
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Thu, 26 Aug 2010 19:42:45 GMT
+      content-length: 
+      - "3376"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851345, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851345, 
+                  "end_user_login": "fakeemail@trada.com", 
+                  "guid": "1ef9e7b0b14911df91a9c5fca3bf701b", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1282851363, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [], 
+                  "created_timestamp": 1282851363, 
+                  "end_user_login": "fakeemailer@trada.com", 
+                  "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281026097, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc525f3d2d6febd71dcbf40cec2fe054", 
+                          "modified_timestamp": 1282839855, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "510.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "480.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282752987, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281026097, 
+                  "end_user_login": "tester", 
+                  "guid": "6263ffd7a0af11df94fb7339fb3db728", 
+                  "received_good_summaries": []
+              }, 
+              {
+                  "read_only": 0, 
+                  "modified_timestamp": 1281043384, 
+                  "resource_name": "end_user", 
+                  "award_summaries": [], 
+                  "level_summaries": [], 
+                  "sent_good_summaries": [], 
+                  "currency_balances": [
+                      {
+                          "end_user_description": null, 
+                          "transaction_group_id": "fc39d1ebc8ca49c7b8ee97a9cec32970", 
+                          "modified_timestamp": 1282689777, 
+                          "pub_title": "temp_points", 
+                          "urls": [], 
+                          "current_balance": "30.00", 
+                          "adjustment_amount": "30.00", 
+                          "currency_id": 579, 
+                          "previous_balance": "0.00", 
+                          "currency_adjusted": false, 
+                          "created_timestamp": 1282689777, 
+                          "pub_description": null, 
+                          "end_user_title": "Temp Points"
+                      }
+                  ], 
+                  "created_timestamp": 1281043384, 
+                  "end_user_login": "testers", 
+                  "guid": "a24ff58ca0d711df966120ad2f73afad", 
+                  "received_good_summaries": []
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"

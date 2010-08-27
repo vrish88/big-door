@@ -1,0 +1,145 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: !ruby/regexp /http:\/\/api\.bigdoor\.com\/api\/publisher\/0deee7386916481199b5cbc16e4800b0\/named_transaction_group\?/
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 25 Aug 2010 15:48:16 GMT
+      content-length: 
+      - "4872"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          [
+              {
+                  "end_user_description": "Just a basic transaction", 
+                  "read_only": 0, 
+                  "end_user_cap": -1, 
+                  "pub_title": "Basic", 
+                  "named_transactions": [
+                      {
+                          "end_user_description": "Just a basic transaction", 
+                          "default_amount": "2.00", 
+                          "modified_timestamp": 1281979301, 
+                          "pub_title": "Basic", 
+                          "named_good": null, 
+                          "id": 612886, 
+                          "named_transaction_group_ratio": "-1.00", 
+                          "named_transaction_is_primary": 1, 
+                          "currency_id": 579, 
+                          "is_source": 1, 
+                          "resource_name": "named_transaction", 
+                          "read_only": 0, 
+                          "variable_amount_allowed": 1, 
+                          "vendor_publisher_title": null, 
+                          "attributes": [], 
+                          "created_timestamp": 1281979301, 
+                          "pub_description": "Just a basic transaction", 
+                          "end_user_title": "Basic", 
+                          "currency": {
+                              "end_user_description": null, 
+                              "read_only": 0, 
+                              "modified_timestamp": 1281974693, 
+                              "pub_title": "temp_points", 
+                              "currency_type_title": "Skill Points", 
+                              "currency_type_id": 9, 
+                              "exchange_rate": "1.00", 
+                              "resource_name": "currency", 
+                              "urls": [], 
+                              "created_timestamp": 1281974693, 
+                              "pub_description": null, 
+                              "end_user_title": "Temp Points", 
+                              "relative_weight": 1, 
+                              "id": 579, 
+                              "currency_type_description": ""
+                          }, 
+                          "notifiable_event": 0
+                      }
+                  ], 
+                  "modified_timestamp": 1281979301, 
+                  "end_user_cap_interval": -1, 
+                  "challenge_response_enabled": 0, 
+                  "urls": [], 
+                  "created_timestamp": 1281979301, 
+                  "pub_description": "Just a basic transaction", 
+                  "end_user_title": "Basic", 
+                  "id": 612134, 
+                  "resource_name": "named_transaction_group"
+              }, 
+              {
+                  "end_user_description": "Not at all basic", 
+                  "read_only": 0, 
+                  "end_user_cap": -1, 
+                  "pub_title": "Not so basic", 
+                  "named_transactions": [
+                      {
+                          "end_user_description": "Not at all basic", 
+                          "default_amount": "600.00", 
+                          "modified_timestamp": 1281998077, 
+                          "pub_title": "Not so basic", 
+                          "named_good": null, 
+                          "id": 612887, 
+                          "named_transaction_group_ratio": "-1.00", 
+                          "named_transaction_is_primary": 1, 
+                          "currency_id": 579, 
+                          "is_source": 1, 
+                          "resource_name": "named_transaction", 
+                          "read_only": 0, 
+                          "variable_amount_allowed": 1, 
+                          "vendor_publisher_title": null, 
+                          "attributes": [], 
+                          "created_timestamp": 1281998077, 
+                          "pub_description": "Not at all basic", 
+                          "end_user_title": "Not so basic", 
+                          "currency": {
+                              "end_user_description": null, 
+                              "read_only": 0, 
+                              "modified_timestamp": 1281974693, 
+                              "pub_title": "temp_points", 
+                              "currency_type_title": "Skill Points", 
+                              "currency_type_id": 9, 
+                              "exchange_rate": "1.00", 
+                              "resource_name": "currency", 
+                              "urls": [], 
+                              "created_timestamp": 1281974693, 
+                              "pub_description": null, 
+                              "end_user_title": "Temp Points", 
+                              "relative_weight": 1, 
+                              "id": 579, 
+                              "currency_type_description": ""
+                          }, 
+                          "notifiable_event": 0
+                      }
+                  ], 
+                  "modified_timestamp": 1281998076, 
+                  "end_user_cap_interval": -1, 
+                  "challenge_response_enabled": 0, 
+                  "urls": [], 
+                  "created_timestamp": 1281998076, 
+                  "pub_description": "Not at all basic", 
+                  "end_user_title": "Not so basic", 
+                  "id": 612135, 
+                  "resource_name": "named_transaction_group"
+              }
+          ], 
+          {}
+      ]
+    http_version: "1.1"
