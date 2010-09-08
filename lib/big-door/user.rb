@@ -28,6 +28,10 @@ module BigDoor
 			perform_request('get', 'end_user', {:id => login})
 		end
 		
+		def destroy
+		  perform_request('delete', 'end_user', {:id => self.end_user_login})
+		end
+		
 		def transaction
 			perform_request('get', "end_user/#{self.end_user_login}/transaction")
 		end
@@ -41,7 +45,7 @@ module BigDoor
 			params[:id] = currency.id.to_s unless currency.nil?
 			result = perform_request('get', "end_user/#{self.end_user_login}/currency_balance", params)
 			result = parse_out_classes(result)
-			result['currency'] = parse_out_classes(result['currency'])
+			result['currency'] = parse_out_classes(result['currency']) unless result.empty?
 
 			return result
 		end

@@ -66,12 +66,25 @@ describe "BigDoor" do
 		
 		it "should get a specific user that uses an email address" do
 			email = 'fakeemailer@trada.com'
-			VCR.use_cassette('user/specific', :record => :new_episodes) do
+			VCR.use_cassette('user/specific', :record => :all) do
 				@user = BigDoor::User.find(email)
 			end
 
 			[*@user].length.should eql(1)
 			@user.end_user_login.should eql(email)
+		end
+		
+		it "should delete a specific user" do
+			email = 'super_faker@trada.com'
+			VCR.use_cassette('user/create', :record => :new_episodes) do
+				@user = BigDoor::User.create(:end_user_login => email)
+			end
+		
+			VCR.use_cassette('user/delete', :record => :all) do
+				@user.destroy
+			end
+		
+			BigDoor::User.find(email).should eql([])
 		end
 	end
 	
@@ -100,6 +113,15 @@ describe "BigDoor" do
 			end
 			@named_transactions_group.first.class.should eql(BigDoor::NamedTransactionGroup)
 			[*@named_transactions_group.first.named_transactions].first.class.should eql(BigDoor::NamedTransaction)
+		end
+		
+		it "should find a named_transaction_group object" do
+			VCR.use_cassette('named_transaction_group/all', :record => :new_episodes) do
+				@named_transactions_group = BigDoor::NamedTransactionGroup.find(:pub_title__startswith => 'temp_points')
+			end
+
+			@named_transactions_group.first.class.should eql(BigDoor::NamedTransactionGroup)
+			@named_transactions_group.pub_title.should eql('temp_points')
 		end
 	end
 end

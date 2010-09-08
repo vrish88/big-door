@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "big-door"
     gem.summary = %Q{Big Door Media gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{A gem to interact with Big Door Media's API}
     gem.email = "mlavrisha@trada.com"
     gem.homepage = "http://github.com/vrish88/big-door"
     gem.authors = ["Michael Lavrisha"]

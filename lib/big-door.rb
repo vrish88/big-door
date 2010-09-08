@@ -58,9 +58,12 @@ module BigDoor
 			query = args
 			params = {}
 			query = {} if (query.is_a? Array and query.empty?) or query.nil?
+			
 			action << '/' + query.delete(:id).to_s if query.has_key? :id
 
-			if ['post', 'put'].include? request_type
+			if request_type == 'delete'
+				query = {:delete_token => SecureRandom.hex}
+			elsif ['post', 'put'].include?(request_type)
 				params[:body] = query
 				params[:body][:time] = "%.2f" % Time.now.to_f
 				params[:body][:token] = SecureRandom.hex
@@ -74,7 +77,6 @@ module BigDoor
 			params[:query][:format] = 'json'
 			url = [BASE_URL, path].join('/')
 			parse_response(BigDoor::Request.send(request_type, url, params))
-			# BigDoor::Request.send(request_type, url, params)
 		end
 
 		private

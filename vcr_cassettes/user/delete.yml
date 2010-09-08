@@ -1,0 +1,28 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :delete
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/super_faker@trada.com?time=1283979571.76&delete_token=fcb932ab9d5f1549f0c81f691c37e8c8&format=json&sig=9e414dfed7a2e8073ef6c3605764a8c29a9252cad7813a5f05e1ff6da762cfbd
+    body: 
+    headers: 
+      connection: 
+      - close
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 204
+      message: NO CONTENT
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/plain
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Wed, 08 Sep 2010 20:59:32 GMT
+      content-length: 
+      - "0"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: 
+    http_version: "1.1"
