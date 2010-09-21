@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{big-door}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Lavrisha"]
-  s.date = %q{2010-08-30}
+  s.date = %q{2010-09-21}
   s.description = %q{A gem to interact with Big Door Media's API}
   s.email = %q{mlavrisha@trada.com}
   s.extra_rdoc_files = [
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "big-door.gemspec",
      "features/big-door.feature",
      "features/step_definitions/big-door_steps.rb",
      "features/support/env.rb",
@@ -55,6 +56,7 @@ Gem::Specification.new do |s|
      "vcr_cassettes/user/all.yml",
      "vcr_cassettes/user/create.yml",
      "vcr_cassettes/user/currency_balance.yml",
+     "vcr_cassettes/user/delete.yml",
      "vcr_cassettes/user/new.yml",
      "vcr_cassettes/user/new_currency_balance.yml",
      "vcr_cassettes/user/specific.yml"
