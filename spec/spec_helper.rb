@@ -6,7 +6,7 @@ require 'vcr'
 require 'fakeweb'
 
 # optionally add autorun support
-require 'rspec/autorun'
+# require 'rspec/autorun'
 
 Rspec.configure do |c|
 
