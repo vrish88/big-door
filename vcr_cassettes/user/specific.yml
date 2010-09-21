@@ -2,11 +2,13 @@
 - !ruby/struct:VCR::HTTPInteraction 
   request: !ruby/struct:VCR::Request 
     method: :get
-    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/fakeemailer@trada.com?time=1283979570.45&format=json&sig=21964e6d1f45947c7c231dfbd2aa70e8d0cdd7ab32b83165809b8d9e6c34cf49
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/fakeemailer@trada.com?time=1285108259.73&sig=24ae8191073056f67d97320041b941097370a7b53214fbd09932d99638a52829&format=json
     body: 
     headers: 
       connection: 
       - close
+      host: 
+      - api.bigdoor.com
   response: !ruby/struct:VCR::Response 
     status: !ruby/struct:VCR::ResponseStatus 
       code: 200
@@ -19,7 +21,7 @@
       server: 
       - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
       date: 
-      - Wed, 08 Sep 2010 20:59:30 GMT
+      - Tue, 21 Sep 2010 22:31:00 GMT
       content-length: 
       - "449"
       vary: 

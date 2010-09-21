@@ -84,7 +84,9 @@ describe "BigDoor" do
 				@user.destroy
 			end
 		
-			BigDoor::User.find(email).should eql([])
+			VCR.use_cassette('user/blank', :record => :new_episodes) do
+				lambda {BigDoor::User.find(email)}.should raise_error BigDoor::BigDoorError
+			end
 		end
 	end
 	

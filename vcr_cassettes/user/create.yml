@@ -4257,3 +4257,493 @@
           {}
       ]
     http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285107907.26&sig=7fa535fd73baf242f9fbad01d9049f65296b822b2414c2097062193dcc2b547f&format=json
+    body: token=aa80ec99f870c586cdd88d9bc16dda6d&time=1285107907.26&guid=75e29390d60006ee0bd9d4eb9f879c24&end_user_login=fakeemailer%40trada.com
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "134"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 21 Sep 2010 22:25:07 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1282851363, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1282851363, 
+              "end_user_login": "fakeemailer@trada.com", 
+              "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285107909.69&sig=69e030e40c6b3283a2bbeb066b814ac6ca1bf6e119708856d4202c6b2af9308c&format=json
+    body: token=0825a56595046e5cdeea6b962ffa6379&time=1285107909.69&end_user_login=super_faker%40trada.com
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "96"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny9 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 21 Sep 2010 22:25:10 GMT
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1283979571, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1283979571, 
+              "end_user_login": "super_faker@trada.com", 
+              "guid": "f9f54cbdbb8b11dfbcfe4c42dabfaacb", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108047.45&sig=6e3050f0cc4efd35211aa4676e4fbe195f64d7db90a4b4a9dab76ab695089490&format=json
+    body: token=51f4e6ac35d73856057a791f30061c47&time=1285108047.45&guid=f4a64804288954ea40816a0936fea765&end_user_login=fakeemailer%40trada.com
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "134"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 21 Sep 2010 22:27:27 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1282851363, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1282851363, 
+              "end_user_login": "fakeemailer@trada.com", 
+              "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108051.35&sig=4ed66e3b2c520cf4d1c0beb414f37dab982d27f22567783a65ccca613a09a127&format=json
+    body: token=d04b4ba42ea301350718946066d69d7e&time=1285108051.35&end_user_login=super_faker%40trada.com
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "96"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 21 Sep 2010 22:27:31 GMT
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1283979571, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1283979571, 
+              "end_user_login": "super_faker@trada.com", 
+              "guid": "f9f54cbdbb8b11dfbcfe4c42dabfaacb", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108126.34&sig=3b563b5a987df8f00185943ada8fa39d230edf973bc46001a975d8db49582f21&format=json
+    body: token=fe1f113c9d86e1a40797695a3dfbfa23&time=1285108126.34&guid=db9332a70b094751792a3c2edb6a0ba6&end_user_login=fakeemailer%40trada.com
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "134"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 21 Sep 2010 22:28:46 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1282851363, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1282851363, 
+              "end_user_login": "fakeemailer@trada.com", 
+              "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108128.31&sig=8fedc7415db866abb9e58d9b5b84e3791c99556ea78e323462884074b1710976&format=json
+    body: token=b7f748652cd5dfb473fe392958c5f004&time=1285108128.31&end_user_login=super_faker%40trada.com
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "96"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 21 Sep 2010 22:28:48 GMT
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1283979571, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1283979571, 
+              "end_user_login": "super_faker@trada.com", 
+              "guid": "f9f54cbdbb8b11dfbcfe4c42dabfaacb", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108202.08&sig=7f9d81b708b6936b9a0eaf74b2903c98385f30280baa877e3c35f4ea28cb128a&format=json
+    body: token=02935b4552b23b508ebbf4993316e24b&time=1285108202.08&guid=e7825930b5e031bf60ce1f27cdf08217&end_user_login=fakeemailer%40trada.com
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "134"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 21 Sep 2010 22:30:02 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny9 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1282851363, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1282851363, 
+              "end_user_login": "fakeemailer@trada.com", 
+              "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108205.33&sig=23e68a966a34719b03d73634913eafd7f252f83bd6ab6ea55d1673773f17ba9f&format=json
+    body: token=01b154762fd4adbd0acdf8f2fdb99a8a&time=1285108205.33&end_user_login=super_faker%40trada.com
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "96"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 21 Sep 2010 22:30:05 GMT
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1283979571, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1283979571, 
+              "end_user_login": "super_faker@trada.com", 
+              "guid": "f9f54cbdbb8b11dfbcfe4c42dabfaacb", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108257.74&sig=ca80f5186fe0a68ee41022dd3b02abc6f6bf0010628b7bac8d787f156e336d5a&format=json
+    body: token=613c851f5ac4c58407a571c0425221f5&time=1285108257.74&guid=5567e794957ed397013c326202e862d4&end_user_login=fakeemailer%40trada.com
+    headers: 
+      connection: 
+      - close
+      content-type: 
+      - application/x-www-form-urlencoded
+      content-length: 
+      - "134"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 21 Sep 2010 22:30:58 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1282851363, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1282851363, 
+              "end_user_login": "fakeemailer@trada.com", 
+              "guid": "29fc6bf5b14911dfa15a55a9222eea83", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :post
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user?time=1285108260.22&sig=6924e2ecc4e3563205ad2bdadcd3cfd1729f4cafd9b2b9c802fc4d41401c47de&format=json
+    body: token=a1daf4886554710edcdc8dd958905e88&time=1285108260.22&end_user_login=super_faker%40trada.com
+    headers: 
+      content-type: 
+      - application/x-www-form-urlencoded
+      connection: 
+      - close
+      content-length: 
+      - "96"
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 201
+      message: CREATED
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - application/json; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny9 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 21 Sep 2010 22:31:00 GMT
+      content-length: 
+      - "449"
+      vary: 
+      - Authorization,Cookie
+    body: |-
+      [
+          {
+              "read_only": 0, 
+              "modified_timestamp": 1283979571, 
+              "resource_name": "end_user", 
+              "award_summaries": [], 
+              "level_summaries": [], 
+              "sent_good_summaries": [], 
+              "currency_balances": [], 
+              "created_timestamp": 1283979571, 
+              "end_user_login": "super_faker@trada.com", 
+              "guid": "f9f54cbdbb8b11dfbcfe4c42dabfaacb", 
+              "received_good_summaries": []
+          }, 
+          {}
+      ]
+    http_version: "1.1"

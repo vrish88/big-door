@@ -92,6 +92,9 @@ module BigDoor
 					else
 						return true
 					end
+				elsif response.parsed_response.nil?
+					# if a destroy command is successful nil is returned from big-door
+					return true
 				elsif response.parsed_response.first.is_a? Array
 					content = response.parsed_response.first
 				else

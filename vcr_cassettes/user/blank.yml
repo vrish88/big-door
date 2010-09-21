@@ -1,0 +1,59 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/super_faker@trada.com?time=1285108129.74&sig=454ae3c182670d36fad8d3c73766fd24ff39c3b9815e0b223ea5a1084bebe314&format=json
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      content-type: 
+      - text/html; charset=utf-8
+      connection: 
+      - Close
+      date: 
+      - Tue, 21 Sep 2010 22:28:49 GMT
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.bigdoor.com:80/api/publisher/0deee7386916481199b5cbc16e4800b0/end_user/super_faker@trada.com?time=1285108262.84&sig=a31637bc814eb571a29971f4617fe25ac45f30629ec5b6fac7c2b130400c35c9&format=json
+    body: 
+    headers: 
+      connection: 
+      - close
+      host: 
+      - api.bigdoor.com
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: NOT FOUND
+    headers: 
+      connection: 
+      - Close
+      content-type: 
+      - text/html; charset=utf-8
+      server: 
+      - Apache/2.2.9 (Debian) PHP/5.2.6-1+lenny8 with Suhosin-Patch mod_wsgi/2.5 Python/2.5.2
+      date: 
+      - Tue, 21 Sep 2010 22:31:03 GMT
+      content-length: 
+      - "9"
+      vary: 
+      - Authorization,Cookie,Accept-Encoding
+    body: Not Found
+    http_version: "1.1"
