@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{big-door}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Lavrisha"]
@@ -54,6 +54,7 @@ Gem::Specification.new do |s|
      "vcr_cassettes/named_transaction_group/specific.yml",
      "vcr_cassettes/user/add_points.yml",
      "vcr_cassettes/user/all.yml",
+     "vcr_cassettes/user/blank.yml",
      "vcr_cassettes/user/create.yml",
      "vcr_cassettes/user/currency_balance.yml",
      "vcr_cassettes/user/delete.yml",
